@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bai4
+langfuse:
+  host: ${LANGFUSE_HOST}
+  public-key: ${LANGFUSE_PUBLIC_KEY}
+  secret-key: ${LANGFUSE_SECRET_KEY}
+cache:
+  prompt:
+    ttl-seconds: 60
+    max-size: 500
